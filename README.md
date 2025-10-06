@@ -1,52 +1,54 @@
+PingMe 💬
 
-# Talk-A-Tive
+PingMe is a real-time chat application built with the MERN stack. It supports one-to-one and group messaging, user authentication, and live updates via WebSockets.
 
-Talk-a-tive is a Full Stack Chatting App.
-Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database.
-## Tech Stack
+🚀 Features
 
-**Client:** React JS
+🔐 User Authentication – Secure signup/login using JWT & bcrypt.
 
-**Server:** Node JS, Express JS
+👥 One-to-One & Group Chat – Send direct messages or chat in groups.
 
-**Database:** Mongo DB
+⚡ Real-Time Messaging – Powered by Socket.io for instant delivery.
 
-## Run Locally
+📩 Message APIs – REST APIs for creating, fetching, and managing chats.
 
-Clone the project
+🎨 Frontend – Built with React + Chakra UI for a clean UI.
 
-```bash
-  git clone https://github.com/sahils281/PingMe
-```
+🗄️ Backend – Node.js + Express + MongoDB with Mongoose models.
 
-Go to the project directory
+🛠️ Tech Stack
 
-```bash
-  cd mern-chat-app
-```
+Frontend: React, Chakra UI
 
-Install dependencies
+Backend: Node.js, Express.js
 
-```bash
-  npm install
-```
+Database: MongoDB (Mongoose ODM)
 
-```bash
-  cd frontend/
-  npm install
-```
+Real-time: Socket.io
 
-Start the server
+Authentication: JWT, bcrypt
 
-```bash
-  npm run start
-```
-Start the Client
+📂 Project Structure
+PingMe/
+│
+├── backend/        # Express + MongoDB API
+│   ├── models/     # User, Chat, Message schemas
+│   ├── routes/     # Authentication, Chat, Message APIs
+│   └── server.js   # Entry point
+│
+├── frontend/       # React UI
+│   ├── src/
+│   └── public/
+│
+└── README.md
 
-```bash
-  //open now terminal
-  cd frontend
-  npm start
-```
+⚡ Getting Started
+Backend Setup
+cd backend
+npm install
+npm run dev
 
-  
+Frontend Setup
+cd frontend
+npm install
+npm start
