@@ -28,27 +28,13 @@ Real-time: Socket.io
 
 Authentication: JWT, bcrypt
 
-📂 Project Structure
-PingMe/
-│
-├── backend/        # Express + MongoDB API
-│   ├── models/     # User, Chat, Message schemas
-│   ├── routes/     # Authentication, Chat, Message APIs
-│   └── server.js   # Entry point
-│
-├── frontend/       # React UI
-│   ├── src/
-│   └── public/
-│
-└── README.md
-
 ⚡ Getting Started
-Backend Setup
+Backend Setup=
 cd backend
 npm install
 npm run dev
 
-Frontend Setup
+Frontend Setup=
 cd frontend
 npm install
 npm start
